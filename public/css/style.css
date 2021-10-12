@@ -1,0 +1,64 @@
+:root {
+  --main-bg-color: #050505ec;
+  --light-blue: #fd776d;
+  --border-color: #6bfa77ed;
+  --container-width: 220px;
+}
+
+body {
+  font-family: system-ui;
+  background: var(--main-bg-color);
+  height: 115vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(109, 230, 145, 0.747);
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 150px;
+}
+section.download {
+  background: #2955e749;
+  width: 430px;
+  max-width: 90%;
+  border-radius: 25px;
+  box-shadow: 0px 20px 20px 0px #8ef7a828;
+  border: 2px dashed var(--border-color);
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download__icon {
+    height: 8rem;
+}
+.download__meta h4 {
+    margin-bottom: 0;
+    line-height: 1.0;
+}
+.send-btn-container a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 8px 40px;
+    margin-top: 15px;
+    background: var(--light-blue);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+  }
+
+  .send-btn-container a:hover {
+      background: var(--dark-blue);
+  }
